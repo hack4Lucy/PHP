@@ -9,6 +9,6 @@
      }           
    ?>
 
-   <input type="submit", id="add", name="add" value="ADD RECORD">    // The ISSET function doesn't work in this case since only NAME parameter is used.
-   <input type="submit", name="add" value="ADD RECORD">              // The ISSET function works in this case because ID is used.
+   <input type="submit", name="add" value="ADD RECORD">    // The ISSET function doesn't work in this case since only NAME parameter is used.
+   <input type="submit", id="add" name="add" value="ADD RECORD">              // The ISSET function works in this case because ID is used.
    
